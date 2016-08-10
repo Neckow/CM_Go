@@ -1,0 +1,16 @@
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\CEM_Go.dll
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\CEM_Go.pdb
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.csprojResolveAssemblyReference.cache
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.MainPage.xaml.g.cs
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.App.xaml.g.cs
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.dll
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.pdb
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.dll.mdb
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\CEM_Go.dll.mdb
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.dll.mdb
+c:\users\billaudl\documents\visual studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\CEM_Go.dll.mdb
