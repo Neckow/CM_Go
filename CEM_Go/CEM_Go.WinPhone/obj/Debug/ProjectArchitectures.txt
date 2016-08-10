@@ -1,0 +1,2 @@
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.WinPhone\CEM_Go.WinPhone.csproj;neutral
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\CEM_Go.csproj;neutral

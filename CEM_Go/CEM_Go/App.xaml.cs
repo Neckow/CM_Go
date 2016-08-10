@@ -13,7 +13,7 @@ namespace CEM_Go
         {
             InitializeComponent();
 
-            MainPage = new CEM_Go.MainPage();
+            MainPage = new View.MainPage();
         }
 
         protected override void OnStart()
