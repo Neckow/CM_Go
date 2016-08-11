@@ -14,7 +14,7 @@ namespace CEM_Go.View {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class PresentationPage : global::Xamarin.Forms.ContentPage {
+    public partial class PresentationPage : global::Xamarin.Forms.TabbedPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
