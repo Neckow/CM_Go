@@ -45,3 +45,5 @@ C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Win
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri.xml
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.WinPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.WinPhone\bin\Debug\Newtonsoft.Json.dll
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.WinPhone\bin\Debug\Newtonsoft.Json.xml

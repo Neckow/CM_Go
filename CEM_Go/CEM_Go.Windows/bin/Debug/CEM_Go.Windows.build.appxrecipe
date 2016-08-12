@@ -43,6 +43,9 @@
     <AppxPackagedFile Include="C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

@@ -17,8 +17,12 @@ namespace CEM_Go.View {
     public partial class TeamListPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView listView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(TeamListPage));
+            listView = this.FindByName<global::Xamarin.Forms.ListView>("listView");
         }
     }
 }

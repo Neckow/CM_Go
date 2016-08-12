@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:CEM_Go.View;assembly=CEM_Go"
              Title="Presentation CEM">
 
-  <local:TeamListPage Title="Equipe" />
+  <local:TeamListPage  />
   
   <local:OffersPage Title="Offres" />
   

@@ -1,0 +1,47 @@
+﻿{"people":[
+  {
+    "id": 1,
+    "name": "Robert De Niro",
+    "qualification": "Robert"
+  },
+  {
+    "id": 2,
+    "name": "Jacques Daniels",
+    "qualification": "Jacquie"
+  },
+  {
+    "id": 3,
+    "name": "George Lucas",
+    "qualification": "Gogo"
+  },
+  {
+    "id": 4,
+    "name": "Olivier Leduc",
+    "qualification": "Le duc"
+  },
+  {
+    "id": 5,
+    "name": "John Doe",
+    "qualification": "Jojo"
+  },
+  {
+    "id": 6,
+    "name": "Lenny Kravitz",
+    "qualification": "Lenny"
+  },
+  {
+    "id": 7,
+    "name": "Mickael Jackson",
+    "qualification": "Micky"
+  },
+  {
+    "id": 8,
+    "name": "Billie jean",
+    "qualification": "Truc"
+  },
+   {
+    "id": 9,
+    "name": "Barbar LeGrand",
+    "qualification":  "Baba"   
+  }
+]}

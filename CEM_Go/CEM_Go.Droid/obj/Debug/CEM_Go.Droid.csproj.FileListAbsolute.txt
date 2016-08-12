@@ -59,5 +59,9 @@ C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Dro
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\res\drawable\psyduck.png
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\res\drawable\battle.png
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\res\drawable\action1.png
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\CEM_Go.Droid.dll.mdb
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\bin\Debug\CEM_Go.Droid.dll.mdb
