@@ -4,7 +4,12 @@
              x:Class="CEM_Go.View.PresentationPage"
              xmlns:local="clr-namespace:CEM_Go.View;assembly=CEM_Go"
              Title="Presentation CEM">
-    <local:TeamListPage/>
-    <local:OffersPage/>
-   <local:SkillsPage/>
+
+  <local:TeamListPage Title="Equipe" />
+  
+  <local:OffersPage Title="Offres" />
+  
+  <local:SkillsPage Title="Compétence" />
+
+  
 </TabbedPage>
