@@ -8,7 +8,7 @@ namespace CEM_Go.Model
         public string name { get; set; }
         public string qualification { get; set; }
 
-        //public string photoPath { get; set; } 
+        public string photo { get; set; } 
 
     }
 

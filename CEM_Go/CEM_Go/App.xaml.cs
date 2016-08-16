@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using CEM_Go.View;
 using Xamarin.Forms;
 
 namespace CEM_Go
@@ -13,7 +13,8 @@ namespace CEM_Go
         {
             InitializeComponent();
 
-            MainPage = new View.MainPage();
+            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

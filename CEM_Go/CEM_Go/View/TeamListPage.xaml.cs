@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using CEM_Go.Model;
@@ -25,12 +27,12 @@ namespace CEM_Go.View
             //*DataSource test
              ObservableCollection<Member> people = new ObservableCollection<Member>();
 
-            people.Add(new Member { name = "Rob Finnerty" });
-            people.Add(new Member { name = "Bill Wrestler" });
-            people.Add(new Member { name = "Dr. Geri-Beth Hooper" });
-            people.Add(new Member { name = "Dr. Keith Joyce-Purdy" });
-            people.Add(new Member { name = "Sheri Spruce" });
-            people.Add(new Member { name = "Burt Indybrick" });
+            people.Add(new Member { name = "Rob Finnerty", qualification = "Chef de projet", photo = "psyduck.png"});
+            people.Add(new Member { name = "Bill Wrestler" , qualification = "Cheerleader", photo = "psyduck.png" });
+            people.Add(new Member { name = "Dr. Geri-Beth Hooper", qualification = "Cheerleader", photo = "psyduck.png" });
+            people.Add(new Member { name = "Dr. Keith Joyce-Purdy", qualification = "Cheerleader", photo = "psyduck.png" });
+            people.Add(new Member { name = "Sheri Spruce", qualification = "Cheerleader", photo = "psyduck.png" });
+            people.Add(new Member { name = "Burt Indybrick", qualification = "Cheerleader", photo = "psyduck.png" });
 
 
 
@@ -52,7 +54,7 @@ namespace CEM_Go.View
             //    ItemTemplate = new DataTemplate(() =>
             //    {
             //        var textCell = new TextCell();
-            //        textCell.SetBinding(TextCell.TextProperty, "name");     // username est un attribut d'objet person
+            //        textCell.SetBinding(TextCell.TextProperty, "name");     // name est un attribut d'objet person
             //        //textCell.SetBinding(TextCell.DetailProperty, "qualification");
             //        return textCell;
             //    }),
@@ -71,6 +73,19 @@ namespace CEM_Go.View
             //Title = "Personal Organiser";
 
             listView.ItemsSource = people;
+        }
+
+        async void OnSelection(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem == null)
+            {
+                return; //ItemSelected is called on deselection, which results in SelectedItem being set to null
+            }
+            var modalPage = new MemberDetailPage();
+            await Navigation.PushAsync(modalPage);
+
+            //DisplayAlert("Item Selected", e.SelectedItem.ToString(), "Ok");
+            //((ListView)sender).SelectedItem = null; //uncomment line if you want to disable the visual selection state.
         }
     }
 }

@@ -47,14 +47,17 @@
     <Compile Include="View\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\MemberDetailPage.xaml.cs">
+      <DependentUpon>MemberDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\NewsPage.xaml.cs">
       <DependentUpon>NewsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\OffersPage.xaml.cs">
       <DependentUpon>OffersPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\PresentationPage.xaml.cs">
-      <DependentUpon>PresentationPage.xaml</DependentUpon>
+    <Compile Include="View\PresentationCEMPage.xaml.cs">
+      <DependentUpon>PresentationCEMPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\QuizzPage.xaml.cs">
       <DependentUpon>QuizzPage.xaml</DependentUpon>
@@ -113,7 +116,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\PresentationPage.xaml">
+    <EmbeddedResource Include="View\PresentationCEMPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -147,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\TeamListPage.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MemberDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

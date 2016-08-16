@@ -5,10 +5,10 @@
               xmlns:local="clr-namespace:CEM_Go.View;assembly=CEM_Go">
   
   <ContentPage.Content>
-    <ListView x:Name="listView">
+    <ListView x:Name="listView" ItemSelected="OnSelection">
       <ListView.ItemTemplate>
         <DataTemplate>
-          <TextCell Text="{Binding name}" Detail="{Binding qualification}"/>
+            <ImageCell Text="{Binding name}" Detail="{Binding qualification}" ImageSource="{Binding photo}"/>
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>

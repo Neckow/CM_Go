@@ -22,7 +22,7 @@ namespace CEM_Go.View
                 {
                     Title = "Presentation",
                     IconSource = "action1.png",
-                    TargetType = typeof(PresentationPage)
+                    TargetType = typeof(PresentationCEMPage)
                 },
                 new MasterPageItem
                 {

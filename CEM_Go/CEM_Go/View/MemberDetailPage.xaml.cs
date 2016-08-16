@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace CEM_Go.View
 {
-    public partial class PresentationPage
+    public partial class MemberDetailPage : ContentPage
     {
-        public PresentationPage()
+        public MemberDetailPage()
         {
             InitializeComponent();
         }

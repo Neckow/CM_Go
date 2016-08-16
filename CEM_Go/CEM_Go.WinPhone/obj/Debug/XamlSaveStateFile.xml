@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\billaudl\documents\visual studio 2015\projects\cem_go\cem_go\cem_go.winphone\obj\debug\intermediatexaml\cem_go.winphone.exe" HashGuid="f8fdf60f-9cbc-512e-0707-2edb3b3ed05e" />
-    <ReferenceAssembly PathName="c:\users\billaudl\documents\visual studio 2015\projects\cem_go\cem_go\cem_go\bin\debug\cem_go.dll" HashGuid="c3bcc2e0-54b6-11a1-35b7-7f0d72e6ebe5" />
+    <ReferenceAssembly PathName="c:\users\billaudl\documents\visual studio 2015\projects\cem_go\cem_go\cem_go\bin\debug\cem_go.dll" HashGuid="c4c49e2f-92f5-22d8-de9d-b7a46895bd9e" />
     <ReferenceAssembly PathName="c:\users\billaudl\documents\visual studio 2015\projects\cem_go\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
     <ReferenceAssembly PathName="c:\users\billaudl\documents\visual studio 2015\projects\cem_go\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
     <ReferenceAssembly PathName="c:\users\billaudl\documents\visual studio 2015\projects\cem_go\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />
