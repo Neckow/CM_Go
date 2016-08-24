@@ -82,9 +82,9 @@ namespace CEM_Go.View
             {
                 return; //ItemSelected is called on deselection, which results in SelectedItem being set to null
             }
-            var reference = (Reference) e.SelectedItem;
+            var reference = (Reference)e.SelectedItem;
 
-            var modalPage = new ReferenceDetailPage {BindingContext = reference};
+            var modalPage = new ReferenceDetailPage { BindingContext = reference };
             await Navigation.PushAsync(modalPage);
 
             //((ListView)sender).SelectedItem = null; //uncomment line if you want to disable the visual selection state.

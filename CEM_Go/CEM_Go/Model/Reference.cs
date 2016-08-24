@@ -11,7 +11,7 @@ namespace CEM_Go.Model
         "project": "Colimo",
         "duration": 6,
         "logo":"/projet/machin.png",
-        "logo client": "/projet/client.png",
+        "clientLogo": "/projet/client.png",
         "description": "Ceci est un projet",
         "distribution": "B2B",
         "platform": "iOS",

@@ -65,5 +65,6 @@ C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Dro
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\bin\Debug\Newtonsoft.Json.dll
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\res\drawable\laposte.png
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\obj\Debug\CEM_Go.Droid.dll.mdb
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go.Droid\bin\Debug\CEM_Go.Droid.dll.mdb
