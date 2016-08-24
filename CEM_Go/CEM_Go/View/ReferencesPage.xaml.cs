@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
@@ -12,21 +11,20 @@ namespace CEM_Go.View
 {
     public partial class ReferencesPage : ContentPage
     {
-        private IOrderedEnumerable<Sector> orderedSector { get; set; }
-        private ObservableCollection<GroupedReferenceModel> groupedReferences { get; set; }
+        private ObservableCollection<GroupedReferenceModel> GroupedReferences { get; }
 
         public ReferencesPage()
         {
             InitializeComponent();
 
-            groupedReferences = new ObservableCollection<GroupedReferenceModel>();
+            GroupedReferences = new ObservableCollection<GroupedReferenceModel>();
 
             var assembly = typeof(ReferencesPage).GetTypeInfo().Assembly;
-            Stream stream = assembly.GetManifestResourceStream("CEM_Go.Data.json");
+            var stream = assembly.GetManifestResourceStream("CEM_Go.Data.json");
 
-            Reference[] references;
-            Sector[] secteurs;
-            
+            List<Reference> references;
+            List<Sector> sectors;
+
 
             /*
              * @brief Parse JSON file Data.json
@@ -37,19 +35,26 @@ namespace CEM_Go.View
                 var json = reader.ReadToEnd();
                 var allReferences = JsonConvert.DeserializeObject<AllReferences>(json);
                 references = allReferences.references;
-                Array.Sort(references, (x, y) => string.CompareOrdinal(x.project, y.project));
+                references = references.OrderBy(o => o.project).ToList();
 
                 var allSector = JsonConvert.DeserializeObject<AllSector>(json);
-                secteurs = allSector.secteurs;
-
-                orderedSector = secteurs.OrderBy(x => x.id);
+                sectors = allSector.sectors;
+                sectors = sectors.OrderBy(x => x.id).ToList();
             }
+            ListSorting(references, sectors);
 
-            /*
-             * @brief Add references in their respective section 
-             * @return Collection of section and hide empty section
-             */
-            foreach (var s in orderedSector)
+            /* Binding from code to View */
+            listView.ItemsSource = GroupedReferences;
+
+        }
+
+        /*
+        * @brief Add references in their respective section 
+        * @return Collection of section and hide empty section
+        */
+        private void ListSorting(List<Reference> references, List<Sector> sectors)
+        {
+            foreach (var s in sectors)
             {
                 var group = new GroupedReferenceModel() { LongName = s.name };
 
@@ -62,13 +67,27 @@ namespace CEM_Go.View
                 }
                 if (group.Any())
                 {
-                    groupedReferences.Add(group);
+                    GroupedReferences.Add(group);
                 }
             }
+        }
 
-            // Binding from code to View
-            listView.ItemsSource = groupedReferences;
+        /*
+         *  @brief Goto Reference detail page when element in reference list is selected 
+        */
 
+        private async void OnSelection(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem == null)
+            {
+                return; //ItemSelected is called on deselection, which results in SelectedItem being set to null
+            }
+            var reference = (Reference) e.SelectedItem;
+
+            var modalPage = new ReferenceDetailPage {BindingContext = reference};
+            await Navigation.PushAsync(modalPage);
+
+            //((ListView)sender).SelectedItem = null; //uncomment line if you want to disable the visual selection state.
         }
     }
 }

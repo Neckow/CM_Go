@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace CEM_Go.Model
 {
@@ -20,7 +21,7 @@ namespace CEM_Go.Model
         public string sector { get; set; }
         public string client { get; set; }
         public string project { get; set; }
-        public int duration { get; set; }
+        public string duration { get; set; }
         public string logo { get; set; }
         public string clientLogo { get; set; }
         public string description { get; set; }
@@ -32,7 +33,7 @@ namespace CEM_Go.Model
 
     public class AllReferences
     {
-        public Reference[] references { get; set; }
+        public List<Reference> references { get; set; }
     }
 
     /*Can be a distinct file*/

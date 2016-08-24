@@ -21,5 +21,6 @@ C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\Newtonsoft.Json.xml
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.View.PresentationCEMPage.xaml.g.cs
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.View.MemberDetailPage.xaml.g.cs
+C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.View.ReferenceDetailPage.xaml.g.cs
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\obj\Debug\CEM_Go.dll.mdb
 C:\Users\billaudl\Documents\Visual Studio 2015\Projects\CEM_Go\CEM_Go\CEM_Go\bin\Debug\CEM_Go.dll.mdb

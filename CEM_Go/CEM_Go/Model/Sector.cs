@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace CEM_Go.Model
 {
@@ -14,7 +15,7 @@ namespace CEM_Go.Model
     }
     public class AllSector
     {
-        public Sector[] secteurs { get; set; }
+        public List<Sector> sectors { get; set; }
     }
 
 

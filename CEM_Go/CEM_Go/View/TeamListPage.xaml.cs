@@ -27,12 +27,12 @@ namespace CEM_Go.View
             //*DataSource test
              ObservableCollection<Member> people = new ObservableCollection<Member>();
 
-            people.Add(new Member { name = "Rob Finnerty", qualification = "Chef de projet", photo = "psyduck.png"});
+          /*  people.Add(new Member { name = "Rob Finnerty", qualification = "Chef de projet", photo = "psyduck.png"});
             people.Add(new Member { name = "Bill Wrestler" , qualification = "Cheerleader", photo = "psyduck.png" });
             people.Add(new Member { name = "Dr. Geri-Beth Hooper", qualification = "Cheerleader", photo = "psyduck.png" });
             people.Add(new Member { name = "Dr. Keith Joyce-Purdy", qualification = "Cheerleader", photo = "psyduck.png" });
             people.Add(new Member { name = "Sheri Spruce", qualification = "Cheerleader", photo = "psyduck.png" });
-            people.Add(new Member { name = "Burt Indybrick", qualification = "Cheerleader", photo = "psyduck.png" });
+            people.Add(new Member { name = "Burt Indybrick", qualification = "Cheerleader", photo = "psyduck.png" });*/
 
 
 
@@ -72,7 +72,9 @@ namespace CEM_Go.View
             //};
             //Title = "Personal Organiser";
 
+/*
             listView.ItemsSource = people;
+*/
         }
 
         async void OnSelection(object sender, SelectedItemChangedEventArgs e)
