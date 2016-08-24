@@ -2,5 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CEM_Go.View.MemberDetailPage">
-  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Orientation="Vertical" >
+    <StackLayout BackgroundColor="Blue">
+      <Label Text="imgur"></Label>
+    </StackLayout>
+    <StackLayout BackgroundColor="Red">
+      <Label Text="Name"></Label>
+      <Label Text="Qualification"></Label>
+    </StackLayout>
+  </StackLayout>
 </ContentPage>

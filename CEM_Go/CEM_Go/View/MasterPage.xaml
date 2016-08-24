@@ -14,14 +14,7 @@
                   <Label Text="Subhead" FontSize="Small" />
               </StackLayout>
           </ListView.Header>
-          <!-- Doesn't work 
-          <ListView.HeaderTemplate> 
-              <DataTemplate>
-                  <StackLayout Orientation="Horizontal">
-                      <Label Text="HEADER"/>
-                  </StackLayout>
-              </DataTemplate>
-          </ListView.HeaderTemplate>-->
+         
         <ListView.ItemTemplate>
           <DataTemplate>
             <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />

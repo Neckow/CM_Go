@@ -16,7 +16,7 @@
   <Properties>
     <DisplayName>CEM_Go.UWP</DisplayName>
     <PublisherDisplayName>billaudl</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\Storelogo.png</logo>
   </Properties>
 
   <Dependencies>
@@ -33,11 +33,11 @@
       EntryPoint="CEM_Go.UWP.App">
       <uap:VisualElements
         DisplayName="CEM_Go.UWP"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png"
+        Square150x150Logo="Assets\Square150x150logo.png"
+        Square44x44Logo="Assets\Square44x44logo.png"
         Description="CEM_Go.UWP"
         BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>

@@ -1,47 +1,80 @@
-﻿{"people":[
+﻿{"Références":[
   {
     "id": 1,
-    "name": "Robert De Niro",
-    "qualification": "Robert"
-  },
+    "sector": "Energie",
+    "client": "EDF",
+    "project": "Colimo",
+    "duration": 6,
+    "logo":"/projet/machin.png",
+    "logo client": "/projet/client.png",
+    "description": "Ceci est un projet",
+    "distribution": "B2B",
+    "platform": "iOS",
+    "link": "www.apps.com"
+   },
   {
     "id": 2,
-    "name": "Jacques Daniels",
-    "qualification": "Jacquie"
+    "sector": "Transport",
+    "client": "ARL",
+    "project": "Colimo",
+    "duration": 6,
+    "logo":"/projet/machin.png",
+    "logo client": "/projet/client.png",
+    "description": "Ceci est un projet",
+    "distribution": "B2B",
+    "platform": "iOS",
+    "link": "www.apps.com"
   },
   {
     "id": 3,
-    "name": "George Lucas",
-    "qualification": "Gogo"
+    "sector": "Grande Distribution",
+    "client": "Carrefour",
+    "project": "Colimo",
+    "duration": 6,
+    "logo":"/projet/machin.png",
+    "logo client": "/projet/client.png",
+    "description": "Ceci est un projet",
+    "distribution": "B2B",
+    "platform": "iOS",
+    "link": "www.apps.com"
   },
   {
     "id": 4,
-    "name": "Olivier Leduc",
-    "qualification": "Le duc"
+    "sector": "Santé",
+    "client": "Sanofi",
+    "project": "Colimo",
+    "duration": 6,
+    "logo":"/projet/machin.png",
+    "logo client": "/projet/client.png",
+    "description": "Ceci est un projet",
+    "distribution": "B2B",
+    "platform": "iOS",
+    "link": "www.apps.com"
   },
   {
     "id": 5,
-    "name": "John Doe",
-    "qualification": "Jojo"
+    "sector": "Agriculture",
+    "client": "GammVert",
+    "project": "Colimo",
+    "duration": 6,
+    "logo":"/projet/machin.png",
+    "logo client": "/projet/client.png",
+    "description": "Ceci est un projet",
+    "distribution": "B2B",
+    "platform": "iOS",
+    "link": "www.apps.com"
   },
   {
     "id": 6,
-    "name": "Lenny Kravitz",
-    "qualification": "Lenny"
-  },
-  {
-    "id": 7,
-    "name": "Mickael Jackson",
-    "qualification": "Micky"
-  },
-  {
-    "id": 8,
-    "name": "Billie jean",
-    "qualification": "Truc"
-  },
-   {
-    "id": 9,
-    "name": "Barbar LeGrand",
-    "qualification":  "Baba"   
+    "sector": "Education",
+    "client": "Rectorat",
+    "project": "Colimo",
+    "duration": 6,
+    "logo":"/projet/machin.png",
+    "logo client": "/projet/client.png",
+    "description": "Ceci est un projet",
+    "distribution": "B2B",
+    "platform": "iOS",
+    "link": "www.apps.com"
   }
-]}
+ ]}
