@@ -17,8 +17,12 @@ namespace CEM_Go.View {
     public partial class ReferenceDetailPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image imageCircleBack;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ReferenceDetailPage));
+            imageCircleBack = this.FindByName<global::Xamarin.Forms.Image>("imageCircleBack");
         }
     }
 }

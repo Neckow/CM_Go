@@ -1,11 +1,63 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CEM_Go.View.ReferenceDetailPage">
-  <ContentPage.Content>
-    <StackLayout VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="Infinity" BackgroundColor="Gray">
-      <Image Source="{Binding icon}"></Image>
-    </StackLayout>
-    <Label Text="{Binding project}" VerticalOptions="Center" HorizontalOptions="Center" />
-  </ContentPage.Content>
+             x:Class="CEM_Go.View.ReferenceDetailPage"
+             Title="{Binding client}">
+    <ContentPage.Content>
+        <ScrollView>
+            <RelativeLayout>
+                <Image Source="{Binding clientLogo}" HeightRequest="150" BackgroundColor="Gray"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=70}" />
+                <Image x:Name="imageCircleBack" Source="{Binding logo}"
+                       BackgroundColor="White" HeightRequest="90" WidthRequest="90" HorizontalOptions="Center"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=.5}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=1, Property=Y, Constant=110}" />
+                <!-- <Button BorderRadius="30" BackgroundColor="Red" HeightRequest="80"
+                        WidthRequest="80"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=imageCircleBack, Property=X, Factor=1,Constant=5}"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=imageCircleBack, Factor=0, Property=Y, Constant=85}" />-->
+                <Label Text="{Binding project}" FontAttributes="Bold" FontSize="26"
+                       HorizontalTextAlignment="Center"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=imageCircleBack, Property=Y, Factor=0, Constant=180}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+            </RelativeLayout>
+
+
+            <!--<StackLayout VerticalOptions="Start" HorizontalOptions="Start" Orientation="Vertical" WidthRequest="Infinity" BackgroundColor="Gray">
+        <RelativeLayout HorizontalOptions="Start" WidthRequest="Infinity"  >
+          <Image Source="{Binding clientLogo}" HeightRequest="200"
+                 />
+          <Image Source="{Binding logo}" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center"    />
+          <BoxView Color="Red" x:Name="Red"
+           WidthRequest="Infinity"
+           HeightRequest="200"
+            RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=Constant, 
+                                        Constant=10}"
+            RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=Constant, 
+                                        Constant=20}" />
+          <BoxView Color="Yellow"
+           WidthRequest="100"
+           HeightRequest="100"
+            RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToParent, 
+                                        Property=Width,       
+                                        Factor=0.5}"
+
+            RelativeLayout.YConstraint=
+                  "{ConstraintExpression Type=RelativeToView,
+                                        Property=Y, 
+                                        ElementName=Red,
+                                        Constant=-5}"  />
+        </RelativeLayout>
+        
+        <Label Text="{Binding project}" VerticalOptions="Center" HorizontalOptions="Center" />
+
+        <Label Text="{Binding description}" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Label Text="{Binding link}" VerticalOptions="Center" HorizontalOptions="Center" />
+      </StackLayout>-->
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>
