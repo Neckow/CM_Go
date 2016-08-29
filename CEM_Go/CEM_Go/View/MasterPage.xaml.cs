@@ -21,25 +21,25 @@ namespace CEM_Go.View
                 new MasterPageItem
                 {
                     Title = "Presentation",
-                    IconSource = "action1.png",
+                    IconSource = "icon.png",
                     TargetType = typeof(PresentationCEMPage)
                 },
                 new MasterPageItem
                 {
                     Title = "Nos Références",
-                    IconSource = "gotcha.png",
+                    IconSource = "icon.png",
                     TargetType = typeof(ReferencesPage)
                 },
                 new MasterPageItem
                 {
                     Title = "Fil d'actualité",
-                    IconSource = "psyduck.png",
+                    IconSource = "icon.png",
                     TargetType = typeof(NewsPage)
                 },
                 new MasterPageItem
                 {
                     Title = "Quizz",
-                    IconSource = "battle.png",
+                    IconSource = "icon.png",
                     TargetType = typeof(QuizzPage)
                 }
             };

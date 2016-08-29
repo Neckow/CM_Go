@@ -8,19 +8,19 @@
         <ScrollView>
          <StackLayout Orientation="Vertical">
            <RelativeLayout>
-             <Image BackgroundColor="Gray" Source="{Binding logoClient}" HeightRequest="120"
+             <Image BackgroundColor="Gray" Source="{Binding clientLogo}" HeightRequest="120"
                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
-             <Button BorderRadius="35" x:Name="imageCircleBack"
+            <!-- <Button BorderRadius="35" x:Name="imageCircleBack"
                      BackgroundColor="White" HeightRequest="95" WidthRequest="95"
                      RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=.5, Constant = -45}"
-                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=70}" />
-             <Image Source="{Binding logo}" HeightRequest="85"
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=70}" />-->
+             <Image Source="{Binding logo}" HeightRequest="85" x:Name="logoImg"
                     WidthRequest="85"
-                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=imageCircleBack, Property=X, Factor=1,Constant=5}"
-                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=75}" />
+                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Factor=1, Property=X, Constant=5}"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=120}" />
              <Label Text="{Binding project}" FontAttributes="Bold" FontSize="26" x:Name="projectLabel"
                     HorizontalTextAlignment="Center"
-                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=imageCircleBack, Property=Y, Factor=0, Constant=160}"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=logoImg, Property=Y, Factor=0, Constant=160}"
                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
            </RelativeLayout>
           <RelativeLayout BackgroundColor="Aqua">
