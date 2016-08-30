@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
+﻿using System.Collections.ObjectModel;
 using System.IO;
 using System.Reflection;
 using CEM_Go.Model;
-using Newtonsoft.Json;
 using Xamarin.Forms;
 
 namespace CEM_Go.View
@@ -20,12 +16,31 @@ namespace CEM_Go.View
 
 
 
-            var assembly = typeof(TeamListPage).GetTypeInfo().Assembly;
+           /* var assembly = typeof(TeamListPage).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream("CEM_Go.DataSource.json");
+            string ze;  
+            using (var reader = new StreamReader(stream))
+            {
+                var json = reader.ReadToEnd();
+                DependencyService.Get<ISaveAndLoad>().SaveText("Data.json", json);
+                ze = DependencyService.Get<ISaveAndLoad>().LoadText("Data.json");
+            }
 
+                
+
+            Label lbl = new Label {Text = ze};
+
+            Content = new StackLayout
+            {
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                Children =
+                {
+                   lbl
+                }
+            };*/
 
             //*DataSource test
-             ObservableCollection<Member> people = new ObservableCollection<Member>();
+            ObservableCollection<Member> people = new ObservableCollection<Member>();
 
           /*  people.Add(new Member { name = "Rob Finnerty", qualification = "Chef de projet", photo = "psyduck.png"});
             people.Add(new Member { name = "Bill Wrestler" , qualification = "Cheerleader", photo = "psyduck.png" });
@@ -77,7 +92,7 @@ namespace CEM_Go.View
 */
         }
 
-        async void OnSelection(object sender, SelectedItemChangedEventArgs e)
+     /*   async void OnSelection(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem == null)
             {
@@ -88,6 +103,6 @@ namespace CEM_Go.View
 
             //DisplayAlert("Item Selected", e.SelectedItem.ToString(), "Ok");
             //((ListView)sender).SelectedItem = null; //uncomment line if you want to disable the visual selection state.
-        }
+        }*/
     }
 }

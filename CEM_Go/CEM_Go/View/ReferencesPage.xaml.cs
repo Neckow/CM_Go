@@ -22,6 +22,15 @@ namespace CEM_Go.View
             var assembly = typeof(ReferencesPage).GetTypeInfo().Assembly;
             var stream = assembly.GetManifestResourceStream("CEM_Go.Data.json");
 
+           /* string jsonString;
+            using (var reader = new StreamReader(stream))
+            {
+                var json = reader.ReadToEnd();
+                DependencyService.Get<ISaveAndLoad>().SaveText("Data.json", json);
+                jsonString = DependencyService.Get<ISaveAndLoad>().LoadText("Data.json");
+            }
+*/
+
             List<Reference> references;
             List<Sector> sectors;
 

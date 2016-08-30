@@ -6,33 +6,33 @@
              Title="{Binding client}">
     <ContentPage.Content>
         <ScrollView>
-         <StackLayout Orientation="Vertical">
-           <RelativeLayout>
-             <Image BackgroundColor="Gray" Source="{Binding clientLogo}" HeightRequest="120"
-                      RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
-            <!-- <Button BorderRadius="35" x:Name="imageCircleBack"
+            <StackLayout Orientation="Vertical">
+                <RelativeLayout HeightRequest="100">
+                    <Image BackgroundColor="Gray" Source="{Binding clientLogo}" HeightRequest="120"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+                    <!-- <Button BorderRadius="35" x:Name="imageCircleBack"
                      BackgroundColor="White" HeightRequest="95" WidthRequest="95"
                      RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=.5, Constant = -45}"
                      RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=70}" />-->
-             <Image Source="{Binding logo}" HeightRequest="85" x:Name="logoImg"
-                    WidthRequest="85"
-                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Factor=1, Property=X, Constant=5}"
-                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=120}" />
-             <Label Text="{Binding project}" FontAttributes="Bold" FontSize="26" x:Name="projectLabel"
-                    HorizontalTextAlignment="Center"
-                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=logoImg, Property=Y, Factor=0, Constant=160}"
-                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
-           </RelativeLayout>
-          <RelativeLayout BackgroundColor="Aqua">
-              <Label Text="{Binding description}" x:Name="descriptionLabel" TextColor="White" BackgroundColor="Maroon" FontSize="15" />
-              <Label Text="{Binding link}" TextColor="White" BackgroundColor="Blue" FontSize="10"
-                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=descriptionLabel, Property=Y, Factor=0, Constant=160}"/>
+                    <Image Source="{Binding logo}" HeightRequest="85" x:Name="logoImg"
+                           WidthRequest="85"
+                           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Factor=1, Property=X, Constant=5}"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=135}" />
+                    <Label Text="{Binding project}" FontAttributes="Bold" FontSize="26" x:Name="projectLabel"
+                           HorizontalTextAlignment="Center"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=logoImg, Property=Y, Factor=0, Constant=160}"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+                </RelativeLayout>
+                <RelativeLayout BackgroundColor="Aqua">
+                    <Label Text="{Binding description}" x:Name="descriptionLabel" TextColor="Black"
+                           BackgroundColor="Gray" FontSize="18" />
+                    <Label Text="{Binding link}" TextColor="White" BackgroundColor="Blue" FontSize="10"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=descriptionLabel, Property=Y, Factor=0, Constant=160}" />
+                </RelativeLayout>
+            </StackLayout>
 
-          </RelativeLayout>
-         </StackLayout>
-            
-            
-                <!--  <RelativeLayout BackgroundColor="White"
+
+            <!--  <RelativeLayout BackgroundColor="White"
                                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0, Constant=220}"
                                 HeightRequest="60"
                                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">

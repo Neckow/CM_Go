@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Colimo.Model;
 using Xamarin.Forms;
 
@@ -21,25 +17,25 @@ namespace CEM_Go.View
                 new MasterPageItem
                 {
                     Title = "Presentation",
-                    IconSource = "icon.png",
+                    IconSource = "Monkeyicon.png",
                     TargetType = typeof(PresentationCEMPage)
                 },
                 new MasterPageItem
                 {
                     Title = "Nos Références",
-                    IconSource = "icon.png",
+                    IconSource = "Monkeyicon.png",
                     TargetType = typeof(ReferencesPage)
                 },
                 new MasterPageItem
                 {
                     Title = "Fil d'actualité",
-                    IconSource = "icon.png",
+                    IconSource = "Monkeyicon.png",
                     TargetType = typeof(NewsPage)
                 },
                 new MasterPageItem
                 {
                     Title = "Quizz",
-                    IconSource = "icon.png",
+                    IconSource = "Monkeyicon.png",
                     TargetType = typeof(QuizzPage)
                 }
             };

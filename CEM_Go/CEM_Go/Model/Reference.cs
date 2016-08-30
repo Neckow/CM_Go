@@ -21,6 +21,7 @@ namespace CEM_Go.Model
         public string sector { get; set; }
         public string client { get; set; }
         public string project { get; set; }
+        public string FullReferenceName => $"{client} {project}";
         public string duration { get; set; }
         public string logo { get; set; }
         public string clientLogo { get; set; }

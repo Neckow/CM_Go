@@ -9,7 +9,7 @@
     <ListView x:Name="listView" IsGroupingEnabled="True" GroupDisplayBinding="{Binding LongName}" ItemSelected="OnSelection">
       <ListView.ItemTemplate>
         <DataTemplate>
-            <ImageCell Text="{Binding project}" ImageSource="{Binding logo}" Detail="{Binding duration}" DetailColor="Blue" />
+            <ImageCell Text="{Binding FullReferenceName}" ImageSource="{Binding logo}" Detail="{Binding duration}" DetailColor="Blue" />
         </DataTemplate>
       </ListView.ItemTemplate>
 

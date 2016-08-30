@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using CEM_Go.View;
+﻿using CEM_Go.View;
 using Xamarin.Forms;
 
 namespace CEM_Go

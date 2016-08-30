@@ -39,6 +39,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ISaveAndLoad.cs" />
     <Compile Include="Model\Member.cs" />
     <Compile Include="Model\Reference.cs" />
     <Compile Include="Model\Sector.cs" />
@@ -114,7 +115,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
-    <Folder Include="Utils\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
